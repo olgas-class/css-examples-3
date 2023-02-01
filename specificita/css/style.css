@@ -1,0 +1,46 @@
+/* #my-paragraph {
+    color: blue;
+} */
+
+.orange {
+    color: orange;
+}
+
+p {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.paragraph {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+/* Specifity quizz */
+.specifity-box {
+    color: red;
+}
+
+.specifity-box h2 {
+    color: blue;
+}
+
+p {
+    color: aqua;
+}
+
+.specifity-box p.specifity-paragraph {
+    color: green;
+}
+
+.specifity-box p {
+    color: blueviolet;
+}
+
+
+#specifity-title {
+    color: green;
+}
