@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Il div che ha la classe starred */
+div.starred {
+    background-color: lightcoral;
+}
+
+/* Un elemento paragraph che sta all'interno del div */
+div .paragraph {
+    background-color: lightblue;
+}
+
+div.starred {
+    color: white;
+}
+
+li:nth-child(odd) {
+    background-color: lightblue;
+}
+
+li:nth-child(even) {
+    background-color: lightcoral;
+}
